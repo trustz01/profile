@@ -5,7 +5,7 @@
 	if ($_REQUEST['delete']) {
 		
 		$id = $_REQUEST['delete'];
-		$query = "DELETE FROM biodata WHERE id='$id'";
+		$query = "DELETE FROM biodata_it WHERE id='$id'";
 		$stmt = $DBcon->prepare( $query );
 		$stmt->execute(array('id'=>$id));
 		

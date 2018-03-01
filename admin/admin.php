@@ -157,7 +157,7 @@ if (!isset($_SESSION['mysesi']) || $_SESSION['mytype']!='admin')
 
 <script src="../assets/jquery-1.12.4.min.js"></script>
 <script src="../assets/jquery-3.3.1.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/bootstrap.min.js(2).download"></script>
 <script src="../assets/bootbox.min.js"></script>
 
 <script type="text/javascript">
