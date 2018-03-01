@@ -41,7 +41,7 @@
 	<div class="container">
 		<div class="page-header">
 			<h1>
-				AJAX Form Submit
+				Add new data
 			</h1>
 		</div>
 		
@@ -126,22 +126,6 @@
 			alert('Ajax Failed');
 		});
 	});
-
-	//submit form using ajax short hand $.post() method
-
-/*	$('#reg-form').submit(function(e){
-		e.preventDefault();//prevent default submission
-
-		$.post('submit.php', $(this).serialize())
-		.done(function(data){
-			$('#form-content').fadeOut('slow', function(){
-				$('#form-content').fadeIn('slow').html(data);
-			});
-		})
-		.fail(function(){
-			alert('Ajax Submit Failed');
-		});
-	});*/
 
 	});
 </script>

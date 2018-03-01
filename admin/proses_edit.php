@@ -1,12 +1,7 @@
-<!--
-Author : Aguzrybudy
-Created : Selasa, 19-April-2016
-Title : Crud Menggunakan Modal Bootsrap
--->
 <?php
 	include "dbconfig.php";
 	
-	$nik=$_POST['nik'];
+	$nik = $_POST['nik'];
 	$fname = $_POST['fname'];
 	$lname = $_POST['lname'];
 	$email = $_POST['email'];

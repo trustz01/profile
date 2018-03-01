@@ -3,8 +3,9 @@
 	color:#fff !important;
 }
 
-.cta-0{ /****colour all****/
+.cta-0{ /****colour banner****/
     background-color:#faebd7;
+    height: 150px;
 }
 
 h1.cta-title
@@ -147,7 +148,6 @@ a.btn-banner:hover, a.btn-banner:focus
 
 .cta-ttl{
     font-family: verdana;
-    height: 5%;
     width: 100%;
     color: black;
 }
@@ -173,7 +173,7 @@ a.btn-banner:hover, a.btn-banner:focus
     color: white;
 }
 .textcontact{
-    color: white;
+    color: black;
 }
 
 
@@ -276,7 +276,7 @@ a.btn-banner:hover, a.btn-banner:focus
     color: #aaa;
     display: block;
     font-size: 14px;
-    height: 40px;
+    height: 20px;
     line-height: 21px;
     padding: 9px 13px;
     -webkit-transition: all 0.4s ease 0s;
@@ -285,8 +285,12 @@ a.btn-banner:hover, a.btn-banner:focus
 }
 .footer-bottom {
     background: #008080;/****colour footer****/
-    padding: 20px 0;
-
+    padding: 30px 0;
+    max-height: 5px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
 .footer_copyright {
     color: black;
@@ -304,6 +308,13 @@ a.btn-banner:hover, a.btn-banner:focus
 
 .section-padding {
     width: 100%;
+}
+
+.logo-sc{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    height: 40px;
 }
 
 #banner

@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
     <!-- Bootstrap -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
+    <!-- Bootstrap -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
   <p>
 </p>
+
   <div class="container">
    
-    
-     
     <h2 class="login-title text-center">Sign in to Continue</h2>
     <div class="account-wall">
       <img class="profile-img" src="login.png">
     <form role="form" method="post" class="form-signin">
       
  <label for="username"></label>
- <input type="text" class="form-control" id="username" name="username" placeholder="Username" required="required" autofocus>
+ <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autofocus>
       
       
  <label for="password"></label>
- <input type="password" class="form-control" id="password" name="password" placeholder="Password" required="required">
+ <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
       
       <button type="submit" name="login" class="btn btn-lg btn-primary btn-block">Login</button>
     </form>
@@ -43,13 +38,14 @@
      
   </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- JavaScript -->
     <script src="../assets/jquery-1.12.4.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
 
+
+    <!-- PHP SCRIPT -->
     <?php
-
 
 if(isset($_POST['login'])){
   $mysqli = new mysqli("localhost", "root", "", "magang");
@@ -96,7 +92,7 @@ if(isset($_POST['login'])){
   }
 }
 ?>
-
+    <!-- PHP SCRIPT -->
 
   </body>
 </html> 

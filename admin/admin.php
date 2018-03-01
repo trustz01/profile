@@ -23,9 +23,6 @@ if (!isset($_SESSION['mysesi']) || $_SESSION['mytype']!='admin')
 		<h3>Admin Panel</h3>
 	</div>
 
-	<!--<div id="pesan-sukses" class="alert alert-success"></div>
-	<div id="pesan-error" class="alert alert-danger"></div>-->
-
 	<form action="tambah.php">
 	<button type="submit" class="btn btn-primary" style="float:left;">Tambah Data</button>
 	</form><br/>
@@ -82,7 +79,7 @@ if (!isset($_SESSION['mysesi']) || $_SESSION['mytype']!='admin')
 	<div id="ModalEdit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	</div>
 
-
+	<!-- Modal VIEW -->
 	<div class="modal fade" id="view-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: :none;">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -96,6 +93,7 @@ if (!isset($_SESSION['mysesi']) || $_SESSION['mytype']!='admin')
 					<div id="modal-loader" style="display: none; text-align: center;">
 						<img src="">
 					</div>
+					
 					<!--Content will be loaded here-->
 					<div id="dynamic-content">
 						<!-- Kalo Data Type JSON-->
@@ -158,6 +156,7 @@ if (!isset($_SESSION['mysesi']) || $_SESSION['mytype']!='admin')
 
 
 <script src="../assets/jquery-1.12.4.min.js"></script>
+<script src="../assets/jquery-3.3.1.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
 <script src="../assets/bootbox.min.js"></script>
 
@@ -190,10 +189,6 @@ $(document).ready(function(){
 		});
 	});
 });
-/*
-function Delete_fnc(id){
-	alert('delete'+id);
-}*/
 </script>
 
 <!--Delete JavaScript-->
@@ -246,7 +241,7 @@ function Delete_fnc(id){
 </script>
 
 
-<!-- Javascript untuk popup modal Edit--> 
+<!-- Edit JavaScript --> 
 
 <script type="text/javascript">
    $(document).ready(function () {
@@ -266,5 +261,6 @@ function Delete_fnc(id){
         });
       });
 </script>
+
 </body>
 </html>
