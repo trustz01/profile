@@ -33,9 +33,7 @@
       
       <button type="submit" name="login" class="btn btn-lg btn-primary btn-block">Login</button>
     </form>
-       
-      
-     
+    </div>
   </div>
 
     <!-- JavaScript -->
